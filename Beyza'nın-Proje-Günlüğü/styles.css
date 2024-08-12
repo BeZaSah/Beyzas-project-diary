@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    color: rgb(97, 2, 126);
+}
+
+h2{
+    color: rgb(97, 2, 126);
+}
+
+#navbar {
+    padding: 8px;
+    margin: 0;
+}
+
+#logo {
+    height: 45px;
+}
+
+#banner {
+    width: 100%;
+    object-fit: cover;
+    height: 360px;
+}
+
+#about {
+    display: flex;
+    
+}
+
+#description {
+    width: 50%;
+    padding: 75px;
+}
+
+#team {
+    width: 50%;
+}
+
+#computer-image {
+    border-radius: 8px;
+    width: 100%;
+
+}
+
+#yetenek-table {
+    width: 100%;
+    text-align: center;
+    border: 1px solid rgb(133, 9, 81);
+}
+
+.yetenek-header-row th {
+    border: 1px solid rgb(133, 9, 81);
+    padding: 8px;
+    background-color:  rgb(237, 210, 255);
+}
+
+.yetenek-data-row td {
+    border: 1px solid rgb(133, 9, 81);
+    padding: 8px; 
+}
+
+h2 {
+    padding: 75px;
+    
+}
+
+#yetenekler{
+    margin-top: -150px;  /* h2 ile yetenekler arası çok fazla açıklık kaldı ve çözümünü bulamadım deneme yanılmayla bu şekli verdim */
+    width: 50%;
+    padding: 75px;
+}
+
+#footer {
+    background-color: Thistle;
+    padding: 8px;
+    margin-top: 32px;
+    text-align: center;
+}
+
+#footer-links{
+    text-align: center;
+}
+
+#footer-links li{
+    display: inline;
+    margin: 0 16px;
+}
+
+.copyright {
+    color: rgb(92, 68, 117);
+}
+
