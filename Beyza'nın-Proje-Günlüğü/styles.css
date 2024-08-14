@@ -1,9 +1,26 @@
+* {
+    font-size: 18px;
+}
+
 body{
     margin: 0;
     padding: 0;
     font-family: Sans-serif;
+    font-size: 1rem;
+    background-color: rgba(100, 4, 255, 0.089);
 }
 
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inteer', sans-serif;
+}
 a {
     text-decoration: none;
 }
@@ -11,6 +28,7 @@ a {
 h1{
     text-align: center;
     color: rgb(97, 2, 126);
+    text-transform: uppercase;
 }
 
 h2{
@@ -52,26 +70,30 @@ h2{
 
 }
 
+
 #yetenek-table {
     width: 100%;
     text-align: center;
     border: 1px solid rgb(133, 9, 81);
+    
+    
 }
 
 .yetenek-header-row th {
     border: 1px solid rgb(133, 9, 81);
     padding: 8px;
-    background-color:  rgb(237, 210, 255);
+    background-color:  rgba(208, 207, 255, 0.575);
+    
 }
 
 .yetenek-data-row td {
     border: 1px solid rgb(133, 9, 81);
     padding: 8px; 
+    background-color:  white;
 }
 
 h2 {
     padding: 75px;
-    
 }
 
 #yetenekler{
@@ -79,6 +101,21 @@ h2 {
     width: 50%;
     padding: 75px;
 }
+
+
+
+#öneri-formu {
+    margin: 0 auto;
+    padding: 0 8px;
+    margin-top: -50px; 
+}
+
+
+.form-grubu {
+    margin: 16px;
+    
+}
+
 
 #footer {
     background-color: Thistle;

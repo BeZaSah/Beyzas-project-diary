@@ -15,7 +15,7 @@
     <img id="banner" src="banner.jpg" alt="Banner">
 
     <h1>
-        Hakkımda
+        ✦ Hakkımda ✦
     </h1>
     <div id="about">
         <div id="description">
@@ -52,7 +52,7 @@
 
 
 
-    <h2>Aldığım Eğitimler</h2>
+    <h2>➼ Aldığım Eğitimler</h2>
     <div id="yetenekler">
         <table id="yetenek-table">
             <tr class="yetenek-header-row">
@@ -78,13 +78,61 @@
                 <td>Java</td>
                 <td>Nomad</td>
             </tr>
-            
+
         </table>
 
     </div>
 
+    <div id="bağlantı">
+        <h2 id="öneri">
+            ♥ Öneri ve yorumlarınızı gönderebilirsiniz ♥
+        </h2>
+
+        <!--örnek form-sonra kaldır-->
+        <form id="öneri-formu" action="https://formbold.com/s/3Orek" method="POST" enctype="multipart/form-data"
+        >
+            <div class="form-grubu">
+                <label for="name">❀İsim Soyisim</label><br>
+                <input type="text" id="name" name="Full Name" required>
+            </div>
+
+            <div 
+            class="form-grubu">
+                <label for="email">❀Email</label><br>
+                <input type="email" id="email" name="Email Adresi" required>
+            </div>
+
+            <div class="form-grubu">
+                <label for="message">❀Mesaj</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <div class="form-grubu">
+                <label for="konu">Konu</label><br>
+                <select id="konu" name="Konu mesaji" required>
+                    <option value="">– – – –</option>
+                    <option value="öneri">Öneri</option>
+                    <option value="yorum">Yorum</option>
+                    <option value="teklif">Teklif</option>
+                </select>
+            </div>
+
+            <div class="form-grubu">
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    Onaylıyorum
+                </label>
+            </div>
+
+            <div class="form-grubu">
+                <button type="submit">Gönder</button>
+</form>
+            </div>
+        </form>
+    </div>
 
 
+ 
     <div id="footer">
         <ul id="footer-links">
             <li>Sertifikalar</li>
